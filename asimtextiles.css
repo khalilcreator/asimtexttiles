@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navlogo {
+    width: 100%!important;
+}
+
+.footer-heading {
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-para {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+/* for whtsapp */
+
+.whtsapp {
+    position: fixed;
+    left: 94%;
+    top: 85%;
+    background-color: #12AD2B;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+@media screen and (max-width:685px) {
+    .navlogo {
+        width: 50%!important;
+    }
+    .whtsapp {
+        left: 85%;
+        top: 85%;
+    }
+}
